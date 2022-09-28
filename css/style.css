@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Indie Flower', cursive;
+    line-height: 2;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/image1.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+}
+
+.intro-image__text a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase; 
+    background-color: #fff7f7c0;
+    color: #000000;
+    padding: 2rem;
+    border: 2px solid #000000c2;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text__textbox h3 {
+    text-transform: uppercase;
+}
+
+.intro-text {
+    height: 200px;
+    background-color: #c05d33;
+    color: #000000;
+    padding: 0 15rem;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+}
+
+.btn {
+    border-bottom: 0.2rem solid rgb(97, 55, 0);
+    color: white;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 1rem 2rem rgb(0, 0, 0, 0.15);
+    background-color: #c05d33;
+    transform: translateY(-5px);
+}
+
+.btn:active {
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0, 0.15);
+    transform: translateY(5px);
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url(../img/image2.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+    clip-path: polygon(51% 9%, 51% 9%, 100% 0, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0 0);
+    margin-top: -5rem;
+}
+
+.packaging-image__text a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase; 
+    background-color: #fff7f7c0;
+    color: #000000;
+    padding: 2rem;
+    border: 2px solid #000000c2;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.packaging-text {
+    height: 200px;
+    background-color: #c05d33;
+    color: #000000;
+    padding: 0 15rem;
+    font-size: 1.4rem;
+    text-align: center;
+    display: flex;
+}
+
+.packaging-text h3 {
+    text-transform: uppercase;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url(../img/image3.jpg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+}
+
+.tutorials-image__text a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase; 
+    background-color: #fff7f7c0;
+    color: #000000;
+    padding: 2rem;
+    border: 2px solid #000000c2;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    font-size: 1.5rem;
+    height: 200px;
+    padding: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    background-color: #c05d33;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    color: #2c3694;
+    transform: scale(1.2);
+}
+
+.copyright {
+    color: rgb(0, 0, 0);
+}
